@@ -39,9 +39,8 @@ class Login_Mysql(object):
 
 
 if __name__ == '__main__':
-    dbhelp = Login_Mysql(host='172.16.3.29',database='dicos_3rd', user='root', password='dicos8888')
-    sql = 'select * from tstore limit 11  '
-    dbhelp.fetchall(sql)
+    iso = Login_Mysql(host='172.16.3.29',database='dicos_3rd', user='root', password='dicos8888')
+
 
 
 
